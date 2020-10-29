@@ -26,6 +26,13 @@ set number
 set tabstop=4
 set shiftwidth=4
 
+" Enable cursor line position tracking:
+:set cursorline
+" Remove the underline from enabling cursorline:
+:highlight clear CursorLine
+" Set line numbering to red background:
+:highlight CursorLineNR ctermbg=blue
+
 set wildmode=longest,list,full
 set wildmenu
 
