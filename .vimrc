@@ -38,6 +38,10 @@ set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 
+" persistent undo
+set undofile " Maintain undo history between sessions
+set undodir=~/.vim/undodir
+
 " Better copy & pase
 set pastetoggle=<F2>
 set clipboard=unnamed
